@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8E705018-9382-4C61-8ED0-6ABED9648BEF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3603F4DD-785D-4DCB-A068-0B70B004191F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CV1/UIView+Extension.swift"
+            timestampString = "590648565.765409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "setGradientBackground(initialColor:finalColor:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22D7A9AA-C875-4DD9-997E-F7C29CBA1D1A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CV1/UIView+Extension.swift"
+            timestampString = "590648565.765516"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "setGradientBackground(initialColor:finalColor:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFDDEE80-FD61-492A-A390-FDD691C28CAB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CV1/Model/CVElement.swift"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CCE3629A-069B-4CE4-8EEE-9E8B8F2E49A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CV1/Model/HeaderT.swift"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "HeaderT"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CCE3629A-069B-4CE4-8EEE-9E8B8F2E49A2 - c3cdef88b49acdd3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CV1.HeaderT.__allocating_init(title: Swift.String, icon: Swift.String) -&gt; CV1.HeaderT"
+                  moduleName = "CV1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianolmedo/Documents/Swift/Globant/CV1/CV1/Model/HeaderT.swift"
+                  timestampString = "0"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "CCE3629A-069B-4CE4-8EEE-9E8B8F2E49A2 - dd4c3489e66d146b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CV1.HeaderT.init(title: Swift.String, icon: Swift.String) -&gt; CV1.HeaderT"
+                  moduleName = "CV1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianolmedo/Documents/Swift/Globant/CV1/CV1/Model/HeaderT.swift"
+                  timestampString = "0"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5BE0682-3130-4963-94C6-EB43BBA86245"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CV1/ViewController.swift"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E5BE0682-3130-4963-94C6-EB43BBA86245 - 64358175c9ed716b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CV1.ViewController.profileImage.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "CV1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianolmedo/Documents/Swift/Globant/CV1/CV1/ViewController.swift"
+                  timestampString = "0"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "E5BE0682-3130-4963-94C6-EB43BBA86245 - 76cb2c028e7b5197"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CV1.ViewController.profileImage.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "CV1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianolmedo/Documents/Swift/Globant/CV1/CV1/ViewController.swift"
+                  timestampString = "0"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "E5BE0682-3130-4963-94C6-EB43BBA86245 - 5f488388e44e966"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CV1.ViewController.profileImage.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "CV1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianolmedo/Documents/Swift/Globant/CV1/CV1/ViewController.swift"
+                  timestampString = "0"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "E5BE0682-3130-4963-94C6-EB43BBA86245 - 66036d6cceb241d7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CV1.ViewController.profileImage.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CV1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianolmedo/Documents/Swift/Globant/CV1/CV1/ViewController.swift"
+                  timestampString = "0"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "E5BE0682-3130-4963-94C6-EB43BBA86245 - ad0b5cb35a6adb56"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CV1.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CV1.ViewController"
+                  moduleName = "CV1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianolmedo/Documents/Swift/Globant/CV1/CV1/ViewController.swift"
+                  timestampString = "0"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "E5BE0682-3130-4963-94C6-EB43BBA86245 - 94a83a61bbe258ad"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CV1.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CV1.ViewController&gt;"
+                  moduleName = "CV1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianolmedo/Documents/Swift/Globant/CV1/CV1/ViewController.swift"
+                  timestampString = "0"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CV1/View/ViewController.swift"
+            timestampString = "590954804.443458"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "updateUI(items:CV:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CV1/View/ViewController.swift"
+            timestampString = "590954804.443616"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "updateUI(items:CV:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
