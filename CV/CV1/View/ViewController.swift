@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 
     let presenter: CVPresenter = CVPresenter(dataServices: CVServicesNetworking())
     
-    var didAnimate = false
+    var didAnimate = true
     var itemSelected:ApplicationT?
     
     override var preferredStatusBarStyle: UIStatusBarStyle{
@@ -32,25 +32,6 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-
-        if(!didAnimate){
-            
-            profileImage.center.y -= (viewBar.bounds.height + self.profileImage.bounds.height/2)
-            profileImage.center.x = viewBar.bounds.width/2
-            cvTable.center.y -= cvTable.bounds.width * 2
-            
-            nameLabel.center.x += nameLabel.bounds.width
-            lastNameLabel.center.x += lastNameLabel.bounds.width
-            
-            nameLabel.alpha = 0.0
-            lastNameLabel.alpha = 0.0
-                    
-            
-            animateUI()
-            animateTable()
-
-            didAnimate = true
-        }
         
     }
     
@@ -102,7 +83,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         for a in cells {
             self.cvTable.isHidden = false
             let cell: UITableViewCell = a as UITableViewCell
-            UIView.animate(withDuration: 0.5, delay: 0.6 , usingSpringWithDamping: 1.0, initialSpringVelocity: 0, options: .transitionFlipFromTop, animations: {
+            UIView.animate(withDuration: 0.5, delay: 0.0 , usingSpringWithDamping: 1.0, initialSpringVelocity: 0, options: .transitionFlipFromTop, animations: {
                 cell.transform = CGAffineTransform(translationX: 0, y: 0);
             }, completion: nil)
             
@@ -164,6 +145,8 @@ extension ViewController: CVViewProtocol{
             self.nameLabel.text = CV.name.components(separatedBy: "%")[0]
             self.lastNameLabel.text = CV.name.components(separatedBy: "%")[1]
             self.cvTable.reloadData()
+            self.animateUI()
+            self.animateTable()
         }
     }
     
@@ -185,7 +168,18 @@ extension ViewController: CVViewProtocol{
     }
     
     func animateUI() {
-        UIView.animate(withDuration: 1.0, delay: 0.0,
+        
+        profileImage.center.y -= (viewBar.bounds.height + self.profileImage.bounds.height/2)
+          profileImage.center.x = viewBar.bounds.width/2
+          cvTable.center.y -= cvTable.bounds.width * 2
+          
+          nameLabel.center.x += nameLabel.bounds.width
+          lastNameLabel.center.x += lastNameLabel.bounds.width
+          
+          nameLabel.alpha = 0.0
+          lastNameLabel.alpha = 0.0
+        
+        UIView.animate(withDuration: 1.0, delay: 0.1,
                        usingSpringWithDamping: 2.0, initialSpringVelocity: 0.0, options: [], animations: {
                         self.profileImage.center.y += (self.viewBar.bounds.height + self.profileImage.bounds.height/2)
                         self.profileImage.center.x = self.viewBar.bounds.width/2
